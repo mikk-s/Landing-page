@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(151, 151, 152);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 50px;
+    min-height: 70px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+#logo{
+    min-height: 70px;
+    max-height: 70px;
+    width: auto;
+    object-fit: cover;
+}
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#contato button{
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
